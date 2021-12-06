@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package fly.serv;
+package fcc.serv;
 
 service FccService {
   rpc FetchProjects (FetchProjectsRequest) returns (FetchProjectsResponse){}
